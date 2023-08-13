@@ -32,7 +32,7 @@ constructor(){
         let verify=0;
         //Variável para verificar se não achou itens extras;
         let verifyExtra=0;
-        //Passando por cada item do vetor de Itens principais.
+        //Passando por cada item da Lista de Itens.
             LISTAITENS.forEach(i => {
                 if(i.codigo===splitItens[j]){
                     totalValue+=i.value*splitItens[j+1];
